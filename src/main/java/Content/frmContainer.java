@@ -1,7 +1,6 @@
-package Forms;
+package Content;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class frmContainer extends JFrame {
 

@@ -1,9 +1,11 @@
-package Forms;
+package Content;
 
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+        import javax.swing.*;
+        import javax.swing.event.InternalFrameEvent;
+        import javax.swing.event.InternalFrameListener;
+        import java.awt.*;
+        import java.awt.event.ActionEvent;
+        import java.awt.event.ActionListener;
 
 public class frmMain extends JFrame
 {
@@ -43,6 +45,36 @@ public class frmMain extends JFrame
         //frmContainer.openFrameCount = frmContainer.openFrameCount+1;
         setLocation(xOffset * 1, yOffset * 1);
         setContentPane(panelMain);
+
+        frameExportInvoice.addInternalFrameListener(new InternalFrameListener() {
+            public void internalFrameOpened(InternalFrameEvent e) {
+
+            }
+
+            public void internalFrameClosing(InternalFrameEvent e) {
+
+            }
+
+            public void internalFrameClosed(InternalFrameEvent e) {
+                setContentPane(panelMain);
+            }
+
+            public void internalFrameIconified(InternalFrameEvent e) {
+
+            }
+
+            public void internalFrameDeiconified(InternalFrameEvent e) {
+
+            }
+
+            public void internalFrameActivated(InternalFrameEvent e) {
+
+            }
+
+            public void internalFrameDeactivated(InternalFrameEvent e) {
+
+            }
+        });
         buttonExportInvoice.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 frameExportInvoice.setVisible(true);
@@ -50,7 +82,6 @@ public class frmMain extends JFrame
                 try {
                     frameExportInvoice.setSelected(true);
                 } catch (java.beans.PropertyVetoException ex) {}
-
                 setContentPane(desktop);
             }
         });
