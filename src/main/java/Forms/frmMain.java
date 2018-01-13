@@ -1,4 +1,4 @@
-package Content;
+package Forms;
 
         import javax.swing.*;
         import javax.swing.event.InternalFrameEvent;

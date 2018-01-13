@@ -1,4 +1,4 @@
-        package Content;
+        package Forms;
 
         import javax.swing.*;
         import java.awt.event.ActionEvent;
