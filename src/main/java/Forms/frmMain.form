@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Forms.frmMain">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="1212" y="323" width="942" height="601"/>
+    </constraints>
+    <properties/>
+    <clientProperties>
+      <html.disable class="java.lang.Boolean" value="false"/>
+    </clientProperties>
+    <border type="none">
+      <font/>
+      <title-color color="-16777216"/>
+    </border>
+    <children>
+      <vspacer id="6f712">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="8a636">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="1a9ee" class="javax.swing.JButton" binding="buttonAddresses">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="1000" height="40"/>
+            <maximum-size width="1000" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Adressbuch"/>
+        </properties>
+      </component>
+      <component id="985a9" class="javax.swing.JButton" binding="buttonImportInvoice">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="1000" height="40"/>
+            <maximum-size width="1000" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Rechnung Eingehend"/>
+        </properties>
+      </component>
+      <component id="860cf" class="javax.swing.JButton" binding="buttonOverview">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="1000" height="40"/>
+            <maximum-size width="1000" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Übersicht"/>
+        </properties>
+      </component>
+      <component id="66893" class="javax.swing.JButton" binding="buttonExportInvoice">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="1000" height="40"/>
+            <maximum-size width="1000" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Rechnung Ausgehend"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
