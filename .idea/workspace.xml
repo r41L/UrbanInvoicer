@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8df5fa8-42a3-4193-8220-36415079a9e3" name="Default" comment="Fixed Maven Bug" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,6 +19,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+=======
       <file leaf-file-name="clsMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Classes/clsMain.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -32,6 +33,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="frmMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Content/frmMain.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,12 +47,46 @@
                 <element signature="e#2782#2783#0" expanded="true" />
                 <element signature="e#2832#3223#0" expanded="true" />
                 <element signature="e#3222#3223#0" expanded="true" />
+=======
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
+      <file leaf-file-name="frmMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Content/frmMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="1551">
+              <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+=======
+            <state relative-caret-position="522">
+              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1914#1915#0" expanded="true" />
+                <element signature="e#1971#1972#0" expanded="true" />
+                <element signature="e#2383#2774#0" expanded="true" />
+                <element signature="e#2773#2774#0" expanded="true" />
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
+>>>>>>> 9226013e21f71dcbca054919a17ddaeaa51dbabc
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="frmExportInvoice.java" pinned="false" current-in-tab="false">
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="frmExportInvoice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmExportInvoice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+=======
+      <file leaf-file-name="frmExportInvoice.java" pinned="false" current-in-tab="true">
+>>>>>>> 9226013e21f71dcbca054919a17ddaeaa51dbabc
         <entry file="file://$PROJECT_DIR$/src/main/java/Content/frmExportInvoice.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="335">
@@ -59,11 +95,83 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#1110#1111#0" expanded="true" />
                 <element signature="e#1151#1152#0" expanded="true" />
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="JavaUrbanInvoicing.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaUrbanInvoicing.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frmImportInvoice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmImportInvoice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frmImportInvoice.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmImportInvoice.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frmAddress.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmAddress.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frmAddress.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmAddress.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frmNewAddress.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmNewAddress.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frmNewAddress.form" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmNewAddress.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frmMain.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmMain.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+=======
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -100,15 +208,21 @@
         <option value="$PROJECT_DIR$/src/Forms/frmMain.java" />
         <option value="$PROJECT_DIR$/src/Forms/frmContainer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../../Demo/src/components/InternalFrameDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/Forms/frmMain.form" />
         <option value="$PROJECT_DIR$/src/main/java/Forms/frmContainer.form" />
         <option value="$PROJECT_DIR$/src/main/java/Forms/frmContainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Forms/frmExportInvoice.form" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/classes/clsMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Classes/clsMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Forms/frmMain.java" />
         <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Forms/frmExportInvoice.java" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/src/main/java/Forms/frmImportInvoice.form" />
+        <option value="$PROJECT_DIR$/src/main/java/Forms/frmAddress.form" />
+        <option value="$PROJECT_DIR$/src/main/java/Forms/frmNewAddress.form" />
+=======
         <option value="$PROJECT_DIR$/src/main/java/Forms/frmMain.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Classes/UrbanInvoicingContext.java" />
@@ -116,7 +230,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Content/UrbanInvoicingContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/Classes/clsMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/Content/frmExportInvoice.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/Content/frmMain.java" />
+=======
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
+>>>>>>> 9226013e21f71dcbca054919a17ddaeaa51dbabc
       </list>
     </option>
   </component>
@@ -130,6 +248,8 @@
     <option name="jreName" value="9.0" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
     <option name="x" value="129" />
     <option name="y" value="78" />
     <option name="width" value="1400" />
@@ -151,23 +271,51 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="AndroidView" />
       <pane id="Scope" />
+=======
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+=======
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
+>>>>>>> 9226013e21f71dcbca054919a17ddaeaa51dbabc
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="UrbanInvoicing" type="b2602c69:ProjectViewProjectNode" />
               <item name="UrbanInvoicing" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
             </path>
             <path>
               <item name="UrbanInvoicing" type="b2602c69:ProjectViewProjectNode" />
               <item name="UrbanInvoicing" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
+            </path>
+            <path>
+              <item name="UrbanInvoicing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UrbanInvoicing" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UrbanInvoicing" type="b2602c69:ProjectViewProjectNode" />
               <item name="UrbanInvoicing" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
+>>>>>>> 9226013e21f71dcbca054919a17ddaeaa51dbabc
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -184,7 +332,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Classes" type="462c0819:PsiDirectoryNode" />
+              <item name="Forms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UrbanInvoicing" type="b2602c69:ProjectViewProjectNode" />
@@ -192,11 +340,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Forms" type="462c0819:PsiDirectoryNode" />
+              <item name="frmAddress" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="UrbanInvoicing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UrbanInvoicing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="Forms" type="462c0819:PsiDirectoryNode" />
+              <item name="frmImportInvoice" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="UrbanInvoicing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UrbanInvoicing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Forms" type="462c0819:PsiDirectoryNode" />
+              <item name="frmNewAddress" type="e9f4de52:FormNode" />
+=======
               <item name="Content" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UrbanInvoicing" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
             </path>
           </expand>
           <select />
@@ -386,11 +557,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="-13" y="-13" width="2762" height="1770" extended-state="6" />
+=======
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19640972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32904056" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1747076" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13744588" sideWeight="0.48347548" order="10" side_tool="false" content_ui="tabs" />
+>>>>>>> 9226013e21f71dcbca054919a17ddaeaa51dbabc
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -403,6 +595,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18017058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -413,9 +606,14 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13744588" sideWeight="0.48347548" order="10" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13833158" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+>>>>>>> 9226013e21f71dcbca054919a17ddaeaa51dbabc
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -465,6 +663,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Classes/clsMain.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="99">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1551">
+          <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+=======
         <state relative-caret-position="170">
           <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
@@ -515,26 +727,50 @@
           <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
             <element signature="e#1923#1924#0" expanded="true" />
             <element signature="e#1980#1981#0" expanded="true" />
             <element signature="e#2392#2783#0" expanded="true" />
             <element signature="e#2782#2783#0" expanded="true" />
             <element signature="e#2832#3223#0" expanded="true" />
             <element signature="e#3222#3223#0" expanded="true" />
+=======
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1971#1972#0" expanded="true" />
+            <element signature="e#2383#2774#0" expanded="true" />
+            <element signature="e#2773#2774#0" expanded="true" />
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
+>>>>>>> 9226013e21f71dcbca054919a17ddaeaa51dbabc
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmExportInvoice.form">
+=======
     <entry file="file://$PROJECT_DIR$/src/main/java/Content/frmExportInvoice.form">
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmMain.form">
+=======
     <entry file="file://$PROJECT_DIR$/src/main/java/Content/frmMain.form">
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmExportInvoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1023">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+=======
     <entry file="file://$PROJECT_DIR$/src/main/java/Content/frmExportInvoice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -543,6 +779,7 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1110#1111#0" expanded="true" />
             <element signature="e#1151#1152#0" expanded="true" />
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
           </folding>
         </state>
       </provider>
@@ -563,12 +800,22 @@
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
             <element signature="e#1923#1924#0" expanded="true" />
             <element signature="e#1980#1981#0" expanded="true" />
             <element signature="e#2392#2783#0" expanded="true" />
             <element signature="e#2782#2783#0" expanded="true" />
             <element signature="e#2832#3223#0" expanded="true" />
             <element signature="e#3222#3223#0" expanded="true" />
+=======
+<<<<<<< HEAD
+=======
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1971#1972#0" expanded="true" />
+            <element signature="e#2383#2774#0" expanded="true" />
+            <element signature="e#2773#2774#0" expanded="true" />
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
+>>>>>>> 9226013e21f71dcbca054919a17ddaeaa51dbabc
           </folding>
         </state>
       </provider>
@@ -579,8 +826,16 @@
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+            <element signature="e#938#1068#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+>>>>>>> 9226013e21f71dcbca054919a17ddaeaa51dbabc
             <element signature="e#1110#1111#0" expanded="true" />
             <element signature="e#1151#1152#0" expanded="true" />
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
           </folding>
         </state>
       </provider>
@@ -604,9 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,8 +878,16 @@
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+            <element signature="e#938#1068#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+>>>>>>> 9226013e21f71dcbca054919a17ddaeaa51dbabc
             <element signature="e#1110#1111#0" expanded="true" />
             <element signature="e#1151#1152#0" expanded="true" />
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
           </folding>
         </state>
       </provider>
@@ -638,12 +898,22 @@
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
             <element signature="e#1923#1924#0" expanded="true" />
             <element signature="e#1980#1981#0" expanded="true" />
             <element signature="e#2392#2783#0" expanded="true" />
             <element signature="e#2782#2783#0" expanded="true" />
             <element signature="e#2832#3223#0" expanded="true" />
             <element signature="e#3222#3223#0" expanded="true" />
+=======
+<<<<<<< HEAD
+=======
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1971#1972#0" expanded="true" />
+            <element signature="e#2383#2774#0" expanded="true" />
+            <element signature="e#2773#2774#0" expanded="true" />
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
+>>>>>>> 9226013e21f71dcbca054919a17ddaeaa51dbabc
           </folding>
         </state>
       </provider>
@@ -667,9 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,12 +946,22 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
             <element signature="e#1923#1924#0" expanded="true" />
             <element signature="e#1980#1981#0" expanded="true" />
             <element signature="e#2392#2783#0" expanded="true" />
             <element signature="e#2782#2783#0" expanded="true" />
             <element signature="e#2832#3223#0" expanded="true" />
             <element signature="e#3222#3223#0" expanded="true" />
+=======
+<<<<<<< HEAD
+=======
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1971#1972#0" expanded="true" />
+            <element signature="e#2383#2774#0" expanded="true" />
+            <element signature="e#2773#2774#0" expanded="true" />
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
+>>>>>>> 9226013e21f71dcbca054919a17ddaeaa51dbabc
           </folding>
         </state>
       </provider>
@@ -713,6 +990,14 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$USER_HOME$/Documents/Demo/src/components/InternalFrameDemo.jnlp" />
+    <entry file="file://$USER_HOME$/Documents/Demo/nbproject/project.properties" />
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$USER_HOME$/Documents/Demo/src/components/InternalFrameDemo.java" />
+    <entry file="file://$USER_HOME$/Documents/Demo/src/components/MyInternalFrame.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmContainer.form">
+=======
     <entry file="file://$PROJECT_DIR$/../../Demo/src/components/InternalFrameDemo.jnlp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -743,6 +1028,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Content/frmContainer.form">
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
@@ -751,14 +1037,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="99">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+=======
         <state relative-caret-position="136">
           <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
@@ -782,6 +1069,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
+          <folding />
+>>>>>>> 9226013e21f71dcbca054919a17ddaeaa51dbabc
         </state>
       </provider>
     </entry>
@@ -792,6 +1084,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaUrbanInvoicing.iml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1551">
+          <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+=======
         <state relative-caret-position="17">
           <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
@@ -836,6 +1132,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -844,8 +1141,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Content/frmExportInvoice.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="335">
           <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="561">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+=======
+        <state relative-caret-position="522">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+>>>>>>> 9226013e21f71dcbca054919a17ddaeaa51dbabc
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1110#1111#0" expanded="true" />
@@ -860,14 +1168,69 @@
           <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
             <element signature="e#1923#1924#0" expanded="true" />
             <element signature="e#1980#1981#0" expanded="true" />
             <element signature="e#2392#2783#0" expanded="true" />
             <element signature="e#2782#2783#0" expanded="true" />
             <element signature="e#2832#3223#0" expanded="true" />
             <element signature="e#3222#3223#0" expanded="true" />
+=======
+            <element signature="e#938#1068#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+>>>>>>> df5dd4a30115f488b5ceb461dbcd738c237a9a25
+>>>>>>> 9226013e21f71dcbca054919a17ddaeaa51dbabc
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaUrbanInvoicing.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmImportInvoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmImportInvoice.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmAddress.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmNewAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmNewAddress.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
       </provider>
     </entry>
   </component>
@@ -887,6 +1250,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <last-edited>Detection</last-edited>
           <splitter-proportions>
             <option name="proportions">

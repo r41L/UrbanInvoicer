@@ -35,7 +35,7 @@ public class frmMain extends JFrame
         desktop = new JDesktopPane();
 
         frameExportInvoice = new frmExportInvoice( getSize().width  - inset*2, getSize().height  - inset*2);
-        
+
 
         //super("UrbanInvoicing - Hauptmenü",
         //        false, //resizable
