@@ -1,6 +1,9 @@
 package Classes;
 
-import Forms.*;
+import Content.*;
+
+import javax.swing.*;
+import java.awt.*;
 
 public class clsMain {
 

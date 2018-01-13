@@ -1,8 +1,8 @@
-package Forms;
+        package Content;
 
-import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+        import javax.swing.*;
+        import java.awt.event.ActionEvent;
+        import java.awt.event.ActionListener;
 
 public class frmExportInvoice extends JInternalFrame {
     private JPanel panelMain;
@@ -26,18 +26,12 @@ public class frmExportInvoice extends JInternalFrame {
 
         zurückZumHauptmenüButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-
-
-                //setClosed(true);
-                /*
-                frmMain.desktop = new JDesktopPane();
-
-                    frmMain frame = new frmMain();
-                    frame.setVisible(true);
-                    frmMain.desktop.add(frame);
-                    setContentPane(frmMain.desktop);
-                    */
+                dispose();
             }
         });
+    }
+
+    public void SetContentPane(){
+        setContentPane(panelMain);
     }
 }
