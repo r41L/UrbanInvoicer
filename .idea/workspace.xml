@@ -13,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="frmMain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="frmMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2771">
@@ -27,6 +27,18 @@
                 <element signature="e#3733#3734#0" expanded="true" />
                 <element signature="e#5056#5446#0" expanded="true" />
                 <element signature="e#5445#5446#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clsMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Classes/clsMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmAddress.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -85,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Forms/frmAddress.java" />
         <option value="$PROJECT_DIR$/src/main/java/Forms/frmAddress.form" />
         <option value="$PROJECT_DIR$/src/main/java/Forms/frmMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Classes/clsMain.java" />
       </list>
     </option>
   </component>
@@ -135,6 +148,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UrbanInvoicing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UrbanInvoicing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UrbanInvoicing" type="b2602c69:ProjectViewProjectNode" />
@@ -373,7 +394,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Forms/frmAddress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -399,6 +420,16 @@
             <element signature="e#3733#3734#0" expanded="true" />
             <element signature="e#5056#5446#0" expanded="true" />
             <element signature="e#5445#5446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Classes/clsMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
