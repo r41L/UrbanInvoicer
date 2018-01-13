@@ -35,6 +35,7 @@ public class frmMain extends JFrame
         desktop = new JDesktopPane();
 
         frameExportInvoice = new frmExportInvoice( getSize().width  - inset*2, getSize().height  - inset*2);
+        
 
         //super("UrbanInvoicing - Hauptmenü",
         //        false, //resizable
@@ -76,6 +77,16 @@ public class frmMain extends JFrame
             }
         });
         buttonExportInvoice.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                frameExportInvoice.setVisible(true);
+                desktop.add(frameExportInvoice);
+                try {
+                    frameExportInvoice.setSelected(true);
+                } catch (java.beans.PropertyVetoException ex) {}
+                setContentPane(desktop);
+            }
+        });
+        buttonImportInvoice.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 frameExportInvoice.setVisible(true);
                 desktop.add(frameExportInvoice);
