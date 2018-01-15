@@ -2,7 +2,6 @@ package Forms;
 
 import javax.swing.*;
 
-public class frmNewAddress {
 public class frmNewAddress  extends JInternalFrame{
     private JTextField vornameTextField;
 <<<<<<< HEAD
