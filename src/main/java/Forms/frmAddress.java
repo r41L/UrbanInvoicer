@@ -1,6 +1,8 @@
 package Forms;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class frmAddress  extends JInternalFrame{
     private JButton neuButton;
@@ -21,5 +23,10 @@ public class frmAddress  extends JInternalFrame{
         //frmContainer.openFrameCount = frmContainer.openFrameCount+1;
         setLocation(xOffset * 1, yOffset * 1);
         setContentPane(panelMain);
+        zurückZumHauptmenüButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                dispose();
+            }
+        });
     }
 }

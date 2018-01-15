@@ -78,39 +78,13 @@
           <text value="Summe:"/>
         </properties>
       </component>
-      <component id="44de6" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <font style="1"/>
-          <text value="Summe Netto"/>
-        </properties>
-      </component>
       <component id="8b272" class="javax.swing.JLabel">
         <constraints>
           <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font style="1"/>
-          <text value="&lt;MwSt&gt;"/>
-        </properties>
-      </component>
-      <component id="cb0f4" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <font style="1"/>
-          <text value="Summe Brutto"/>
-        </properties>
-      </component>
-      <component id="2d39a" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="&lt;Sum Net&gt;"/>
+          <text value="19% MwSt"/>
         </properties>
       </component>
       <component id="13129" class="javax.swing.JLabel">
@@ -119,14 +93,6 @@
         </constraints>
         <properties>
           <text value="&lt;Sum MwSt&gt;"/>
-        </properties>
-      </component>
-      <component id="266d7" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="&lt;Sum Gross&gt;"/>
         </properties>
       </component>
       <component id="19ca2" class="javax.swing.JLabel">
@@ -159,6 +125,40 @@
           <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
       </hspacer>
+      <component id="cb0f4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Summe Brutto"/>
+        </properties>
+      </component>
+      <component id="44de6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Summe Netto"/>
+        </properties>
+      </component>
+      <component id="2d39a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="&lt;Sum Net&gt;"/>
+        </properties>
+      </component>
+      <component id="266d7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="&lt;Sum Gross&gt;"/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>
