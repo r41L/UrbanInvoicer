@@ -25,7 +25,7 @@ public class frmMain extends JFrame {
     private JPanel panel1;
 
     public frmMain() {
-        super("UrbanInvoicing v1.0 (Alpha)");
+        super("UrbanInvoicing v1.0 (Alpha - Development Build)");
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         setBounds(inset, inset,
                 screenSize.width - inset * 2,
@@ -37,14 +37,6 @@ public class frmMain extends JFrame {
         frameExportInvoice = new frmExportInvoice(getSize().width - inset * 2, getSize().height - inset * 2);
         frameImportInvoice = new frmImportInvoice(getSize().width - inset * 2, getSize().height - inset * 2);
         frameAddress = new frmAddress(getSize().width - inset * 2, getSize().height - inset * 2);
-
-        //super("UrbanInvoicing - Hauptmenü",
-        //        false, //resizable
-        //        false, //closable
-        //        false, //maximizable
-        //        false);//iconifiable
-        //setSize(pWidth,pHeight);
-        //frmContainer.openFrameCount = frmContainer.openFrameCount+1;
         setLocation(xOffset * 1, yOffset * 1);
         setContentPane(panelMain);
 
