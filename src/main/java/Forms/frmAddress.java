@@ -11,6 +11,7 @@ public class frmAddress  extends JInternalFrame{
     private JTable table1;
     private JPanel panelMain;
     static final int xOffset = 30, yOffset = 30;
+    static frmNewAddress frameNewAddress;
     int inset = 50;
 
     public frmAddress(int pWidth, int pHeight){
