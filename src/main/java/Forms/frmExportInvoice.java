@@ -30,8 +30,4 @@ public class frmExportInvoice extends JInternalFrame {
             }
         });
     }
-
-    public void SetContentPane(){
-        setContentPane(panelMain);
-    }
 }
