@@ -1,32 +1,39 @@
 package Classes;
 
-public class clsInvoicePosition extends clsDatabaseObject
-        {
-        int id, invoiceId, typeId, artikelId;
-        String bemerkung;
-        double brutto, netto, mwst, rabat;
+public class clsInvoicePosition extends clsDatabaseObject {
+        public int Id;
+        public int InvoiceId;
+        public int TypeId;
+        public int ArtikelId;
+        public String Bemerkung;
+        public double Brutto;
+        public double Netto;
+        public double MwSt;
+        public double Rabat;
 
-public clsType type;
-public clsArticel articel;
-public clsInvoice invoice;
+        public clsType Type;
+        public clsArticel Articel;
+        public clsInvoice Invoice;
 
-public clsInvoicePosition()
-        {	}
-
-public clsInvoicePosition(int pId, int pInvoiceId, int pArtikelId, String pBemerkung,double pBrutto, double pNetto, double pMwst, double pRabat, clsType pType)
-        {
-        this.id=pId;
-        this.invoiceId = pInvoiceId;
-        this.type = pType;
-        this.typeId = this.type.id;
-        this.artikelId = pArtikelId;
-        this.bemerkung = pBemerkung;
-        this.brutto = pBrutto;
-        this.netto = pNetto;
-        this.mwst = pMwst;
-        this.rabat = pRabat;
+        public clsInvoicePosition() {
         }
 
-        public void save (){}
-        public void load(){}
+        public clsInvoicePosition(int pId, int pInvoiceId, int pArtikelId, String pBemerkung, double pBrutto, double pNetto, double pMwst, double pRabat, clsType pType) {
+                this.Id = pId;
+                this.InvoiceId = pInvoiceId;
+                this.Type = pType;
+                this.TypeId = this.Type.id;
+                this.ArtikelId = pArtikelId;
+                this.Bemerkung = pBemerkung;
+                this.Brutto = pBrutto;
+                this.Netto = pNetto;
+                this.MwSt = pMwst;
+                this.Rabat = pRabat;
         }
+
+        public void save() {
+        }
+
+        public void load() {
+        }
+}
