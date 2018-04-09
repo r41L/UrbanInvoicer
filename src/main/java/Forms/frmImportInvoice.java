@@ -1,23 +1,18 @@
 package Forms;
 
+import Classes.clsExtendedTableModel;
 import Classes.clsInvoicePosition;
 
 import javax.swing.*;
-import javax.swing.table.DefaultTableModel;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.lang.reflect.Field;
-import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Vector;
 
 public class frmImportInvoice  extends JInternalFrame{
     private JTextField lieferantTextField;
     private JButton speichernButton;
-    private JTable table1;
+    private JTable tableInvoicePositions;
     private JLabel bruttoLabel;
     private JLabel mwstLabel;
     private JLabel nettoLabel;
@@ -50,8 +45,12 @@ public class frmImportInvoice  extends JInternalFrame{
         bruttoLabel.setText("0,00");
         mwstLabel.setText("0,00");
         nettoLabel.setText("0,00");
-        Object[][] object = new Object[100][100];
-        table1 = new JTable(object,this.GetTableColumns());
+
+        clsExtendedTableModel tmpMode = new clsExtendedTableModel();
+        tmpMode.columnNames = this.GetTableColumns();
+        tmpMode.data = new clsInvoicePosition[100][100];
+
+        tableInvoicePositions = new JTable(tmpMode);
     }
 
     private String[] GetTableColumns(){
@@ -63,5 +62,15 @@ public class frmImportInvoice  extends JInternalFrame{
             tmpColumns[i] = tmpFields[i].getName();
         }
         return tmpColumns;
+    }
+
+    public void setData(clsInvoicePosition data) {
+    }
+
+    public void getData(clsInvoicePosition data) {
+    }
+
+    public boolean isModified(clsInvoicePosition data) {
+        return false;
     }
 }
