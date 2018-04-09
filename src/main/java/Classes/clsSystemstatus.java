@@ -8,17 +8,17 @@ public class clsSystemstatus {
         this.Id = pEnm.id;
         this.name = pEnm.name();
     }
-}
 
-public enum enmSystemstatus {
-    Created (1),
-    Deleted (11);
+    public enum enmSystemstatus {
+        Created (1),
+        Deleted (11);
 
-    int id;
+        int id;
 
-    enmSystemstatus(int a)
-    {
-        this.id = a;
+        enmSystemstatus(int a)
+        {
+            this.id = a;
+        }
     }
 }
 

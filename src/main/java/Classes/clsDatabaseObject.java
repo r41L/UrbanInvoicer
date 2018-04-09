@@ -14,7 +14,7 @@ public abstract class clsDatabaseObject
     abstract void load();
     protected void delete()
     {
-        this.systemstatus = new clsSystemstatus (enmSystemstatus.Deleted);
+        //this.systemstatus = new clsSystemstatus (enmSystemstatus.Deleted);
         //ToDo: DateTime.Now in Java finden und this.editedAt setzen
     }
 }
