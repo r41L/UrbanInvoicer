@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class clsInvoice {
 
-    private int id, custumerId;
+    public int id, customerId;
     private Date date;
     boolean printed;
     public double sumBrutto, sumNetto, sumMwst;

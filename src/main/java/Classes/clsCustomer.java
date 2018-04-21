@@ -2,7 +2,7 @@ package Classes;
 
 public class clsCustomer {
 
-    int id;
+    public int id;
     public String name;
     public String lastName;
     public String plz;
