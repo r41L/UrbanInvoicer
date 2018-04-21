@@ -1,19 +1,19 @@
 package Classes;
 
 public class clsInvoicePosition extends clsDatabaseObject {
-        public int Id;
-        public int InvoiceId;
-        public int TypeId;
-        public int ArtikelId;
+        private int Id;
+        private int InvoiceId;
         public String Bemerkung;
         public double Brutto;
         public double Netto;
         public double MwSt;
         public double Rabat;
+        public int ArtikelId;
+        public int TypeId;
 
-        public clsType Type;
-        public clsArticel Articel;
-        public clsInvoice Invoice;
+        private clsType Type;
+        private clsArticel Articel;
+        private clsInvoice Invoice;
 
         public clsInvoicePosition() {
         }
@@ -29,6 +29,11 @@ public class clsInvoicePosition extends clsDatabaseObject {
                 this.Netto = pNetto;
                 this.MwSt = pMwst;
                 this.Rabat = pRabat;
+        }
+
+        public void SetInvoiceId(int pInvoiceId)
+        {
+                this.InvoiceId = pInvoiceId;
         }
 
         public void save() {
