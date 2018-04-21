@@ -1,12 +1,11 @@
 package Classes;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
-public abstract class clsDatabaseObject
+public abstract class clsDatabaseObject extends clsSystemstatus
 {
-    int systemstatusId;
-    Date addedAt;
-    Date editedAt;
+    LocalDateTime addedAt;
+    LocalDateTime editedAt;
 
     clsSystemstatus systemstatus;
 
@@ -14,7 +13,8 @@ public abstract class clsDatabaseObject
     abstract void load();
     protected void delete()
     {
-        //this.systemstatus = new clsSystemstatus (enmSystemstatus.Deleted);
-        //ToDo: DateTime.Now in Java finden und this.editedAt setzen
+        this.systemstatus = new clsSystemstatus (clsSystemstatus.enmSystemstatus.Deleted);
+        this.editedAt = LocalDateTime.now();
     }
+
 }

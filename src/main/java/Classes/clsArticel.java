@@ -1,6 +1,6 @@
 package Classes;
 
-public class clsArticel {
+public class clsArticel extends clsDatabaseObject  {
     int id;
     String name;
     double vatRate;
