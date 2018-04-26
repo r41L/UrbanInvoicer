@@ -21,4 +21,12 @@ public class clsArticel extends clsDatabaseObject  {
     public static int GetId(String pArticleName){
         return 1;
     }
+
+    void save() {
+
+    }
+
+    void load() {
+
+    }
 }
