@@ -71,6 +71,7 @@ public class frmImportInvoice  extends JInternalFrame{
         JTable tmpTable = new JTable( tmpTableModel);
         tablePositions = tmpTable;
         JViewport tmpViewPort = new JViewport();
+        tablePositions.setFillsViewportHeight(true);
         tmpViewPort.add(tablePositions );
         scrollPane1.setViewport(tmpViewPort);
 
@@ -97,14 +98,12 @@ public class frmImportInvoice  extends JInternalFrame{
 
     private String[] GetTableColumns(){
         clsInvoicePosition tmpDummyObject = new clsInvoicePosition();
-        Field[] tmpFields = tmpDummyObject.getClass().getFields();
-        String[] tmpColumns = new String[tmpFields.length+2];
-        int tmpCounter = 0;
-        for (int i = 0; i<tmpFields.length; i++)
-        {
-            tmpColumns[i] = tmpFields[i].getName();
-            tmpCounter++;
-        }
+        String[] tmpColumns = new String[7];
+        tmpColumns[0] = "Bemerkung";
+        tmpColumns[1] = "Brutto";
+        tmpColumns[2] = "Netto";
+        tmpColumns[3] = "MwSt";
+        tmpColumns[4] = "Rabat";
         tmpColumns[5] = "Artikel";
         tmpColumns[6] = "Typ";
         return tmpColumns;
@@ -130,6 +129,11 @@ public class frmImportInvoice  extends JInternalFrame{
             tmpPosition.SetInvoiceId(tmpInvoiceId);
             tmpPosition.save();
         }
-        tmpNewInvoice.save();
+        clsCustomer tmpSelectedCustomer = clsCustomer.class.cast(comboBoxCostumer.getSelectedItem());
+        tmpNewInvoice.customerId = tmpSelectedCustomer.id;
+        //tmpNewInvoice.save();
+        if(true) {
+            dispose();
+        }
     }
 }
