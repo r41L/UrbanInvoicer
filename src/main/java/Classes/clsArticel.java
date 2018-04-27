@@ -1,6 +1,6 @@
 package Classes;
 
-public class clsArticel {
+public class clsArticel extends clsDatabaseObject  {
     int id;
     String name;
     double vatRate;
@@ -20,5 +20,13 @@ public class clsArticel {
 
     public static int GetId(String pArticleName){
         return 1;
+    }
+
+    void save() {
+
+    }
+
+    void load() {
+
     }
 }

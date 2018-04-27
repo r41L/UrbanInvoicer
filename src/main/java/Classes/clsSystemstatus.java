@@ -4,6 +4,8 @@ public class clsSystemstatus {
     int Id;
     String name;
 
+    public clsSystemstatus(){}
+
     public clsSystemstatus(enmSystemstatus pEnm) {
         this.Id = pEnm.id;
         this.name = pEnm.name();

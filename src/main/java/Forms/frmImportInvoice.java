@@ -12,6 +12,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.InputMethodListener;
 import java.lang.reflect.Field;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class frmImportInvoice  extends JInternalFrame{
     private JButton speichernButton;
@@ -104,6 +107,19 @@ public class frmImportInvoice  extends JInternalFrame{
         }
         tablePositions.getColumnModel().getColumn(5).setCellEditor(new DefaultCellEditor(comboBoxArtikel));
         tablePositions.getColumnModel().getColumn(6).setCellEditor(new DefaultCellEditor(comboBoxTyp));
+
+        try {
+            Connection connection = DriverManager.getConnection("jdbc:mariadb://SQLSRV01:3307/urbanInvoicing?user=urbanInvoicing&password=urbanInvoicing");
+            if(connection == null || !connection.isValid(2000) || connection.isClosed()){
+                this.bruttoLabel.setText("nicht möglich");
+            }
+            else
+            {
+                this.bruttoLabel.setText("läuft bei mir");
+            }
+        } catch (SQLException e) {
+            this.bruttoLabel.setText(e.toString());
+        }
     }
 
     private String[] GetTableColumns(){
