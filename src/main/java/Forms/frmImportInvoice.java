@@ -1,14 +1,16 @@
 package Forms;
 
-import Classes.clsExtendedTableModel;
 import Classes.*;
 
 import javax.swing.*;
+import javax.swing.event.CellEditorListener;
+import javax.swing.event.ChangeEvent;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumn;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.InputMethodListener;
 import java.lang.reflect.Field;
 
 public class frmImportInvoice  extends JInternalFrame{
@@ -59,6 +61,14 @@ public class frmImportInvoice  extends JInternalFrame{
                 model.removeRow(tablePositions.getSelectedRow());
             }
         });
+        CellEditorListener ChangeNotification = new CellEditorListener() {
+            public void editingCanceled(ChangeEvent e) {
+                            
+            }
+            public void editingStopped(ChangeEvent e) {
+            }
+        };
+        tablePositions.getDefaultEditor(String.class).addCellEditorListener(ChangeNotification);
     }
 
     private void ResetForm(){

@@ -14,7 +14,7 @@ public class clsInvoice {
 
     public boolean SaveToDb(){
         boolean tmpResult = false;
-
+        String tmpCommand = "INSERT INTO tbInvoice (date, printed, sumBrutto, sumNetto, sumMwst) VALUES (getdate(), false, "+sumBrutto+","+sumNetto+","+sumMwst+")";
         return tmpResult;
     }
 

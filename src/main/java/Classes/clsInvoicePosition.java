@@ -37,6 +37,7 @@ public class clsInvoicePosition extends clsDatabaseObject {
         }
 
         public void save() {
+                String tmpCommand = "INSERT INTO tbInvoicePosition (InvoiceId, Bemerkung, Brutto, Netto, MwSt, Rabat, ArtikelId, TypeId) VALUES ("+InvoiceId+","+Bemerkung+","+Brutto+","+Netto+","+MwSt+","+Rabat+","+ArtikelId+","+TypeId+")";
         }
 
         public void load() {
