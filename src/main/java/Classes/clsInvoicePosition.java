@@ -1,5 +1,11 @@
 package Classes;
 
+import javax.swing.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.Statement;
+
 public class clsInvoicePosition extends clsDatabaseObject {
         private int Id;
         private int InvoiceId;
@@ -36,8 +42,24 @@ public class clsInvoicePosition extends clsDatabaseObject {
                 this.InvoiceId = pInvoiceId;
         }
 
-        public void save() {
-                String tmpCommand = "INSERT INTO tbInvoicePosition (InvoiceId, Bemerkung, Brutto, Netto, MwSt, Rabat, ArtikelId, TypeId) VALUES ("+InvoiceId+","+Bemerkung+","+Brutto+","+Netto+","+MwSt+","+Rabat+","+ArtikelId+","+TypeId+")";
+        public boolean save() {
+                boolean result = false;
+
+                try {
+                        Connection connection = DriverManager.getConnection("jdbc:mariadb://SQLSRV01:3307/urbanInvoicing?user=urbanInvoicing&password=urbanInvoicing");
+                        if (!(connection == null || !connection.isValid(2000) || connection.isClosed())) {
+                                String tmpCommand = "INSERT INTO tbInvoicePosition (invoice_id, bemerkung, brutto, netto, mwSt, rabatt, artikel_id, type_id, systemstatus_id) VALUES ("
+                                        + this.InvoiceId + ", '" + this.Bemerkung + "'," + this.Brutto + "," + this.Netto + "," + this.MwSt + "," + this.Rabat + "," + this.ArtikelId + "," + this.TypeId + ",1)";
+                                PreparedStatement ps = connection.prepareStatement(tmpCommand);
+                                result = ps.execute();
+                        }
+                }catch (Exception e) {
+                    JOptionPane.showMessageDialog(null,e.getMessage(),"Error in clsInvoicePosition",JOptionPane.OK_CANCEL_OPTION);
+                        e.printStackTrace();
+                        result = false;
+                } finally {
+                        return result;
+                }
         }
 
         public void load() {

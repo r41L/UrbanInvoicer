@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JavaUrbanInvoicing:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaUrbanInvoicing_jar</output-path>
+    <root id="archive" name="JavaUrbanInvoicing.jar">
+      <element id="module-output" name="JavaUrbanInvoicing" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/mariadb-java-client-2.2.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

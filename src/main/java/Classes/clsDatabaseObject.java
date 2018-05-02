@@ -10,7 +10,7 @@ public abstract class clsDatabaseObject extends clsSystemstatus
 
     clsSystemstatus systemstatus;
 
-    abstract void save();
+    abstract boolean save();
     abstract void load();
     protected void delete()
     {
